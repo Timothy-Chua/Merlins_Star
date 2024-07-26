@@ -12,3 +12,8 @@ E -> Collect
 
 ## Unity Version
 2021.3.26f1
+
+## Known Issues
+1. Instances where upgrading barracks can lead to negative coins on hand
+2. Instances where the enemy spawning system may become inconsistent with the wave status
+3. Instances where "Q" and "E" buttons only become responsive after multiple presses
