@@ -4,13 +4,13 @@ A simple RTS game (which became closer to a tower defense game) developed in com
 The player must protect Merlin's tower by building structures to defend the tower. The player can build barracks, protection fields, and lamps to help defend the tower. In order to build these buildings, the players must collect coins from Merlin's tower. The player can also upgrade buildings to make them more efficient.
 
 This project uses free assets from the Unity asset store for the models and animations of the soldiers and the orcs, namely:
-1. "Mini Legion Footman PBR HP Polyart"
-2. "Mini Legion Grunt PBR HP Polyart"
+- "Mini Legion Footman PBR HP Polyart"
+- "Mini Legion Grunt PBR HP Polyart"
 
 ## Controls
-Right-click -> Move
-Q -> Upgrade/Build
-E -> Collect
+- Right-click -> Move
+- Q -> Upgrade/Build
+- E -> Collect
 
 ## Unity Version
 2021.3.26f1
