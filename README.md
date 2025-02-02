@@ -1,4 +1,4 @@
-# RTSProject
+# Merlin's Star
 A simple RTS game (which became closer to a tower defense game) developed in completion of the Game Development course in the University of the East
 
 The player must protect Merlin's tower by building structures to defend the tower. The player can build barracks, protection fields, and lamps to help defend the tower. In order to build these buildings, the players must collect coins from Merlin's tower. The player can also upgrade buildings to make them more efficient.
