@@ -23,7 +23,7 @@ public class WaveManager : MonoBehaviour
     public float timeStartWave = 10f;
     public float timeBetweenWaves = 6f;
 
-    private void Start()
+    private void Awake()
     {
         if (instanceWM == null)
         {
@@ -33,7 +33,10 @@ public class WaveManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+    }
 
+    private void Start()
+    {
         enemiesDefeatedTotal = 0;
         waveNum = 1;
         isNextWave = true;

@@ -69,6 +69,18 @@ public class PoolManager : MonoBehaviour
             }
         }
 
-        return null;
+        GameObject newUnit = null;
+        if (list == poolAlly) 
+        { 
+            newUnit = Instantiate(objAlly);
+            poolAlly.Add(newUnit);
+        }
+        else if (list == poolEnemy)
+        {  
+            newUnit = Instantiate(objEnemy);
+            poolEnemy.Add(newUnit);
+        }
+
+        return newUnit;
     }
 }
